@@ -8,5 +8,4 @@ int main()
     double maspred;
     cout << "Введите грузоподъёмность автомобиля (кг): ";
     cin >> gruzpod;
-
 }
