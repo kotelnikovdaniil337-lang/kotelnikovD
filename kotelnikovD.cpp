@@ -24,5 +24,11 @@ int main()
     
     double процентЗагрузки = (obmas / gruzpod) * 100;
     cout << "Процент загрузки: " << процентЗагрузки << "%\n";
+     if (obmas > gruzpod) {
+        cout << "ПЕРЕГРУЗ!"
+             << (obmas - gruzpod) << " кг.\n";
+    } else {
+        cout << "Перегруз отсутствует\n";
+    }
     return 0;
 }
