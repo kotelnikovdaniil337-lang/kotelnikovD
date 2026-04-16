@@ -30,5 +30,9 @@ int main()
     } else {
         cout << "Перегруз отсутствует\n";
     }
+    cout << "Нажмите Enter для завершения работы";
+    cin.ignore(); 
+    cin.get();   
+
     return 0;
 }
