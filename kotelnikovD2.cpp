@@ -19,5 +19,6 @@ int main()
         sumob += 1.0 / sopr;
         k++;
     }
+    cout << "Количество элементов: " << k << endl;
     return 0;
 }
