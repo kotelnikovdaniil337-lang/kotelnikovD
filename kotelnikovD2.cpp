@@ -22,9 +22,12 @@ int main()
     cout << "Количество элементов: " << k << endl;
      if (k > 0) {
         double obsopr = 1.0 / sumob;
-        cout << "Общее сопротивление цепи: " << obsopr23 << " Ом" << endl;
+        cout << "Общее сопротивление цепи: " << obsopr << " Ом" << endl;
     } else {
         cout << "Не было введено ни одного элемента!" << endl;
     }
+    cout << "Нажмите Enter для завершения работы";
+    cin.ignore(); 
+    cin.get();  
     return 0;
 }
